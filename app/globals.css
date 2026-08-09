@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: all;
+}
+
+a,
+button {
+  border-radius: 6px;
+}
+
+.scrollable {
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+.bouton {
+  border-radius: 50%;
+}
